@@ -32,12 +32,18 @@ Steps to get the database ready and post the product data to display initialy.
 
 Please use the below api and payload to post the intial data to display.
 
-API : Method : POST 
-      Url : http://localhost:3000/products
+API : Method : POST
+ 
+      Url : "http://localhost:3000/products"
+
       Payloads: 
+
              1> {"id":1,"name":"cloths","image":"cloths.png","price":1000}
+
              2> {"id":2,"name":"electronics","image":"electronics.jpg","price":5000}
+
              3> {"id":3,"name":"fruits","image":"fruits.jpg","price":500}
+
              4> {"id":4,"name":"shoes","image":"shoes.jpg","price":500}
 
 Use the above api and post the above payloads one after the other individually.
